@@ -1,0 +1,22 @@
+.fish-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust the container height as per your fish images size */
+}
+
+.fish {
+  width: 100px; /* Adjust the width and height as per your fish images size */
+  height: 50px;
+  animation: rotate 4s linear infinite; /* You can change the rotation speed and duration */
+  margin: 20px; /* Adjust the margin between the fish images */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
